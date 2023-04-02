@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">     
+    <meta name="robots" content="index,follow">  
+   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Creative Design & Publishing</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <!-- 풋터쪽 작업 css -->
+    <link rel="stylesheet" href="css/sub_about.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" href="../pre/css/overlay.css" type="text/css">
+	<link rel="stylesheet" href="css/page-animation.css">
+	<link rel="stylesheet" href="css/zoomslider.css" />
+	<Script>
+	$(document).ready(function() {
+	  $('.open-menu').on('click', function() {
+		 $('.overlay').addClass('open');
+	  });
+
+	  $('.close-menu').on('click', function() {
+		$('.overlay').removeClass('open');
+	  });
+	});
+	</script>
+    <script src="js/selectivizr-min.js"></script>
+	<script src="js/nprogress.js"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="js/selectivizr-min.js"></script>
+        <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
+    <script src="../pre/js/respond.min.js"></script>
+	<script src="../pre/js/aos.js"></script>
+	<link href="../pre/css/aos.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<script> 
+$('body').show();
+NProgress.start();
+setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); },50);
+</script>
+<div class='fade out'>
+<!-- 탑메뉴 -->
+	<div id="test">
+		<div class="open-menu">
+			
+		</div>
+	</div>
+
+	<div class="overlay">
+		<nav class="overlay-menu">
+			<ul>
+				<li><a href="http://www.originalsme.com">Home</a></li>
+				<li><a href="../pre/sub_about.html">About Me</a></li>
+				<li><a href="../pre/sub_ourwork.html">Our Work</a></li>
+				<li><a href="../pre/sub_contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<p class="close"><img class="close-menu" src="../pre/img/main/close.png" alt=""/></p>
+	</div>
+<style>
+.open-menu{position:absolute; top:0; left:0; z-index:100000; background:url(../pre/img/main/menu.png) no-repeat; width:80px;  height:100px;}
+.open-menu.fixed{position:fixed; top:0; left:0; z-index:100000; background:url(../pre/img/main/menu_over.png) no-repeat; width:80px; height:100px;}
+</style>
+
+<script type="text/javascript">
+
+	var Offset=$('#test').offset();
+	$(window).scroll(function(){
+		if($(document).scrollTop()>Offset.top){
+			$('.open-menu').addClass('fixed');
+		}else{
+			$('.open-menu').removeClass('fixed');
+		}
+	});
+</script>	
+<!-- 탑메뉴 -->
+
+	<div id="header_test"></div>
+	<div id="visual_test">
+		<div id="visual_content_test">
+			<h2 class="fadeIn">About <span>Me</span></h2>
+			<p class="slideDown mt20">I will be a web Master who always thinks and develops.</p>
+		</div>
+	</div>
+
+    <div id="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="introduce clfix">
+            <div class="wrap clfix">
+                <h2 class="introduce_title">I’m a Web <span class="color">Master</span></h2>
+                <div class="cont_right">
+                    <p class="introduce_text1 paragraph">
+					I'm a Web Master from Korea. I love CSS and JavaScript which along with other acronyms gives me superpower to develop compelling Web Publisher, intuitive 
+					yet minimalistic interfaces, and engaging designs I work to the principle that Simple  is beautiful, while carefully including the finest details and interactions.
+					</p>
+					<p class="introduce_text2 paragraph">
+					I always like to study the most efficient way ahead of my work.
+					I pursue novelty different from others than follow others. <br/>I will have a good influence on the world through my own web design & publishing.
+				  </p>
+              </div>
+		   </div>
+        </div>
+        <div class="expertise">
+            <h2 class="expertise_title">My <span class="color">Expertise</span></h2>
+            <p class="expertise_text1 paragraph mt20">The challenge for my limitations is more important than any experience.</p>
+            <ul class="clfix">
+                <li data-aos="fade-up" data-aos-delay="100">
+                    <img src="img/main/icon_01.png" alt="하늘색 모니터 아이콘">
+                    <div class="txt">
+                        <h3>Web <span class="bold">Development</span></h3>
+                        <p class="paragraph">
+                            I build next-generation<br/>
+                            web products using best-in-practice<br/>
+                            technologies & frameworks.
+                        </p>
+                    </div>
+
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/main/icon_02.png" alt="하늘색 휴대폰 아이콘">
+                    <div class="txt">
+                        <h3>UI/UX <span class="bold">Dessign</span></h3>
+                        <p class="paragraph">
+                            I love shaping your product from<br/>
+                            research to interaction to pixels, thus defining<br/>
+                            how easy a product is to use. 
+                        </p>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <img src="img/main/icon_03.png" alt="하늘색 종이 펜 아이콘">
+                    <div class="txt">
+                        <h3>Improving <span class="bold">Products</span></h3>
+                        <p class="paragraph">
+                            No task is too small. I do product<br/>
+                            enhancements and fix issues. After all, that's<br/> 
+                            where amazing user experiences start. 
+                        </p>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <img src="img/main/icon_04.png" alt="하늘색 휴대폰 아이콘">
+                    <div class="txt">
+                        <h3>Digital <span class="bold">Marketing</span></h3>
+                        <p class="paragraph">
+                            I help you understanding the users<br/>
+                            and knowing how to engage them at the <br/>
+                            right time in the right place.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="notebook clfix">
+            <div class="cont_notebook_bg"></div>
+            <ul class="publisher_list clfix">
+                <li class="publisher_list1" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <h4>Html5/Css3</h4>
+                        <p>
+                            In line with current trends<br>
+                            Using HTML5/CSS3, We are making.
+                        </p>
+                    </a>
+                </li>
+                <li class="publisher_list2" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <h4>Java Script</h4>
+                        <p>
+                            Simple JavaScript required for<br>
+                            coding can analyze and modify the source.
+                        </p>
+                    </a>
+                </li>
+                <li class="publisher_list3" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <h4>Jquery</h4>
+                        <p>
+                            Plugin with JQUERY<br>
+                            Using the code You can edit it.
+                        </p>
+                    </a>
+                </li>
+                <li class="publisher_list4" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <h4>Bootstrap</h4>
+                        <p>
+                            You can build a simple site<br>
+                            using bootstrap
+                        </p>
+                    </a>
+                </li>
+                <li class="publisher_list5" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <h4>Edit Plus</h4>
+                        <p>
+                            I am mainly involved in coding<br>
+                            Using EDITPLUS I am doing coding work.
+                        </p>
+                    </a>
+                </li>
+                <li class="publisher_list6" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <h4>Photoshop</h4>
+                        <p>
+                            At the time of coding Need<br>
+                            a simple Photoshop job Available.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="technology" data-aos="fade-up" data-aos-delay="100">
+            <h3>"Design is a tool that allows us to reach out and inspire,<br/>
+					to touch others and help make lives magic and wonderful."</h3>
+            <p class="paragraph txt1">"디자인은 우리에게 영감을 주고, 더 나아가게 한다. 그리고 인생을 마술적이고 멋지게 만들어준다."</p>
+            <p class="paragraph">- Marcel Wanders -</p>
+        </div>
+        <div class="contact">
+            <h2 class="contact_title">Contact <span class="color">Us</span></h2>
+            <p class="contact_text1"><span>T. 010-6360-6612</span><span class="md10">E.originals84@hanmail.net</span></p>
+            <span><a href="../pre/sub_contact.html" class="btn_detail">Detail View</a></span>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="wrap clfix">
+			<h5>ORIGINALS</h5>
+            <div class="footer_text">
+                <p class="f_text1">
+                    H.http://www.originalsme.com<br>
+                    <span>T. 010-6360-6612</span>   <span class="md10">E.originals84@hanmail.net</span>
+                </p>
+                <p class="f_text2">Copyrightⓒ 2017 ORIGINALS All Rights Reserved</p>
+            </div>
+            <ul class="sns_btn clfix">
+                <li><a href="#"><img src="img/main/icon_facebook.png" alt="facebook 아이콘"></a></li>
+                <li><a href="#"><img src="img/main/icon_e.png" alt="아이콘"></a></li>
+                <li><a href="#"><img src="img/main/icon_twitter.png" alt="twitter 아이콘"></a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script>
+    AOS.init({
+      duration: 1200,
+      offset: 0,
+      delay: 100,
+      easing: 'ease-out-quad',
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+#nprogress .bar {background:#23c3ff; position: fixed; z-index: 1031; top:0; left:0;width:100%; height:7px;}
+.fade { transition: all 300ms linear 300ms;opacity: 1;}
+.fade.out {opacity: 0;}
+
+	#visual_test{
+	height:900px;
+	background:url(../img/sub_about/sub_main01.jpg) no-repeat center;
+	background-size:cover;
+	position:relative;
+	
+}
+	#visual_content_test{
+	position:absolute;
+	width:100%; 
+	top:35%;
+	line-height:22px;
+	color:#fff; 
+	text-align:Center;
+}
+	#visual_content_test h2{
+	font-size:80px;
+	line-height:1.2;
+	color:#fff;
+	font-weight:200;
+}
+	#visual_content_test h2 span{color:#23c3ff;}
+
+#container h2{font-size: 36px; }
+#container .paragraph{
+    font-size: 15px; line-height: 26px;
+    color: #636363;
+}
+#container .btn_detail{
+    font-size: 17px; line-height: 26px;
+    color: #363636;
+}
+
+#container .introduce{background-color: #23c3ff;}
+#container .introduce .wrap{
+    width: 1200px; margin: 0 auto; 
+	padding: 50px 0;
+    color: #fff;
+}
+ .introduce_title{float: left; width:30%; }
+ .introduce_title span{color: #ffde00;}
+
+ .cont_right{
+    float: left; width:70%; 
+}
+#container .cont_right p{color: #fff;}
+ .introduce_text2{margin-top: 30px;}
+
+
+#container .expertise{
+    text-align: center; padding: 100px 0;
+}
+#container .expertise ul{margin-top: 80px;}
+#container .expertise ul li{width: 19%; margin: 0 3%;}
+#container .expertise ul li h3{
+    font-size: 22px; color: #23c3ff;
+    font-weight: normal; margin: 30px 0;
+}
+
+
+#container .notebook .cont_notebook_bg{
+    float: left; width: 50%; height: 750px;
+    text-indent: -9999px;
+    background-image: url("../img/main/notebook_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container .notebook .publisher_list{float: right; width: 50%;}
+#container .notebook .publisher_list li{
+    width: 50%; height: 250px;
+    text-align: center;
+}
+#container .notebook .publisher_list li a{
+    display: block; height: 100%;
+    color: #777; border: 1px solid #efefef;
+    padding-top: 80px;
+}
+#container .notebook .publisher_list li a h4{font-size: 30px; line-height: 48px;}
+#container .notebook .publisher_list li a p{font-size: 15px; line-height: 24px;}
+#container .notebook .publisher_list li:hover a{background-color: #34c4fa; color: #fff; border: 0}
+
+
+#container .technology{
+    padding: 140px 0; text-align: center;
+    background-color: #f9f9f9;
+}
+#container .technology h3{font-size: 34px; color: #2d2d2d;}
+#container .technology p.txt1{margin: 50px 0;}
+
+#container .contact{
+    text-align: center; color: #fff;
+    background-image: url("../img/main/contact_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    padding: 140px 0;
+}
+#container .contact h2{text-indent: 0;}
+#container .contact .contact_text1{
+    font-size: 15px; text-indent: 0;
+    margin: 20px 0 50px 0; 
+}
+#container .contact .btn_detail{color: #fff; font-weight: bold;}
+
+
+
+@media screen and (max-width: 1200px){
+#visual_content_test{
+	top:35%; 
+}
+	#visual_content_test h2{
+	font-size:50px;
+}
+	#visual_content_test p{font-size:13px;}  
+
+    #visual_test{
+	 height:400px;
+}
+
+ #container .introduce .wrap {width:90%;}
+ #container .introduce_title {width:100%; }
+ #container .cont_right {width:100%; margin-top:3%;}
+
+
+    #container .expertise ul{
+        width: 90%; margin: 0 auto;
+        text-align: left; margin-top: 50px;
+    }
+    #container .expertise ul li{
+        width: 50%; height: 100px;
+        margin: 0; margin-bottom: 50px;
+    }
+    #container .expertise ul li img{width: 12%; float: left; margin-right: 8%;}
+    #container .expertise ul li .txt{float: left; width: 75%;}
+    #container .expertise ul li .txt h3{margin: 0; font-size: 140%;}
+    #container .expertise ul li .txt p{
+        font-size: 11px; line-height: 20px;
+        margin-top: 15px;
+    }
+    
+    #container .notebook .cont_notebook_bg{width: 100%; height: 370px;}
+    
+    #container .notebook .publisher_list{width: 100%;}
+    #container .notebook .publisher_list li{width: 33.333%;}
+    #container .notebook .publisher_list li a h4{font-size: 25px;}
+    #container .notebook .publisher_list li a p{font-size: 13px;}
+    
+    #container .contact{padding: 100px 0;}
+    #container .contact .contact_text1{font-size: 13px;}
+}
+
+
+
+@media screen and (max-width: 640px){
+
+
+ 
+	.introduce{width: 100%; text-align: center; }
+	.introduce_title{float: none; margin-bottom: 40px;}
+	.cont_right{width: 100%; margin-left:0%;}
+        
+    #container .expertise{padding: 50px 0;}
+    #container .expertise ul{
+        width: 95%; 
+        text-align: center; margin-top: 50px;
+    }
+    #container .expertise ul li{
+        width: 100%; height: 50%;
+        margin-bottom: 0; padding: 15px;
+    }
+
+    #container .expertise ul li img{float: none; width: 20%; margin-right: 0; margin-bottom: 20px;}
+    #container .expertise ul li .txt{float: none; width: 100%;}
+
+    #container .expertise ul li .txt p{
+        font-size: 13px; line-height: 20px;
+        margin-top: 15px;
+    }
+    
+    #container .notebook .cont_notebook_bg{height: 280px;}
+    
+    #container .notebook .publisher_list li{width: 50%; height: 200px;}
+    #container .notebook .publisher_list li a{padding-top: 50px;}
+    
+    #container .contact{padding: 50px 0;}
+}

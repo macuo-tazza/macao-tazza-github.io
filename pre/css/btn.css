@@ -1,0 +1,16 @@
+.btn_detail{position:relative; display:inline-block; }
+.btn_detail a{display:block; padding:0 20px; color:#363636;}
+.test:before{
+-webkit-transform: rotate(-52deg);
+transform: rotate(-52deg);
+-webkit-transition: all 0.2s ease;
+transition: all 0.2s ease;
+background: #23c3ff;
+position: absolute;
+bottom: 15px;
+content: "";
+height: 2px;
+left: 30px;
+width: 50%;
+	
+}

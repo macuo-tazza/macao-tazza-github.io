@@ -1,0 +1,202 @@
+span.color{color: #23c3ff;}
+span.bold{font-weight: bold;}
+#nprogress .bar {background:#23c3ff; position: fixed; z-index: 1031; top:0; left:0;width:100%; height:7px;}
+.fade { transition: all 300ms linear 300ms;opacity: 1;}
+.fade.out {opacity: 0;}
+#visual_wrap{position:relative; height:900px; background-image: url(../img/main/main.jpg)no-repeat center;  }
+
+.visual h1{font-size:30px;}
+.visual_ment{position:absolute;  top:50%; width:80%; left:0; right:0; margin:0 auto; z-index:100; margin-top:-100px; text-align:center; font-size:13px; line-heighT:22px; color:#fff;}
+.visual_ment h1{font-size:60px; line-height:1.2; color:#fff; font-weight:200;}
+.visual_ment h1 span{color:#23c3ff;}
+
+.main_banner{
+    height: 900px; text-align: center;
+    background-size: cover;
+	top:35%;
+    color: #fff; 
+}
+.main_banner h1{
+    font-size: 60px; line-height: 70px;
+}
+.main_banner p{
+    font-size: 13px; line-height: 24px;
+    margin-top: 30px;
+}
+
+#container h2{font-size: 36px; }
+.paragraph{
+    font-size: 15px; line-height: 26px;
+    color: #636363;
+}
+.btn_detail{
+    font-size: 17px; line-height: 26px;
+    color: #363636;
+}
+
+.introduce{
+    width: 1200px; margin: 0 auto;
+    padding: 50px 0;
+}
+.introduce_title{float: left; width:30%;}
+
+.cont_right{
+    float: left; width:70%; 
+}
+.introduce_text2{margin-top:30px;}
+
+
+.ourwork{
+    text-align: center; padding-top: 80px;
+    background-color: #f2f2f2;
+}
+
+.ourwork p{margin-bottom: 30px;}
+.ourwork ul{margin-top: 60px;}
+.ourwork ul li{width: 25%; position: relative;}
+.ourwork ul li img{width: 100%;}
+.ourwork ul li a{
+    display: block; width: 100%; height: 100%;
+    padding-top: 48%;
+    font-size: 17px; color: #fff;
+    font-weight: bold;
+    transition: all 0.5s;
+    position: absolute; top: 0; left: 0;
+    background-color: #2ca6d7;
+    opacity: 0; filter:Alpha(opacity=0);
+	
+}
+.ourwork ul li:hover a{opacity: 0.8; filter:Alpha(opacity=80);}
+
+
+.expertise{
+    text-align: center; padding: 100px 0;
+}
+.expertise ul{margin-top: 80px;}
+.expertise ul li{width: 25%;}
+.expertise ul li h3{
+    font-size: 22px; color: #23c3ff;
+    font-weight: normal; margin: 30px 0;
+}
+
+
+.cont_notebook_bg{
+    height: 430px; text-indent: -9999px;
+    background-image: url("../img/main/notebook_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.publisher_list li{
+    width: 33.333%; height: 250px;
+    text-align: center;
+}
+.publisher_list li a{
+    display: block; height: 100%;
+    color: #777; border: 1px solid #efefef;
+    padding-top: 80px;
+}
+.publisher_list li a h4{font-size: 30px; line-height: 48px;}
+.publisher_list li a p{font-size: 15px; line-height: 24px;}
+.publisher_list li:hover a{background-color: #34c4fa; color: #fff; border: 0}
+
+
+.contact{
+    text-align: center; color: #fff;
+    background-image: url("../img/main/contact_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0; 
+}
+
+.contact .contact_text1{
+    font-size: 15px; 
+    margin: 20px 0 50px 0;
+}
+.contact .btn_detail{color: #fff; font-weight: bold;
+}
+.footer_text p{color:#fff;}
+
+
+@media screen and (max-width: 1200px){
+#visual_wrap{height:400px;}
+.visual_ment h1{font-size:30px; line-height:1.2; color:#fff; font-weight:200; margin-top:50px;}
+.main_banner{height: 780px;}
+.main_banner h1{font-size: 45px;}
+
+#container h2{font-size: 30px;}
+.introduce_title{width:100%; }
+.cont_right{width:100%; margin-top:3%;}
+.introduce{width: 90%;}
+
+    
+.ourwork ul li{width: 50%;}
+    
+.expertise{padding: 0; padding-top: 100px;}
+.expertise ul{
+        width: 90%; margin: 0 auto;
+        text-align: left; margin-top: 50px;
+    }
+.expertise ul li{
+        width: 50%; height: 100px; margin-bottom: 50px;
+    }
+.expertise ul li img{width: 12%; float: left; margin-right: 8%;}
+.expertise ul li .txt{float: left; width: 75%;}
+.expertise ul li .txt h3{margin: 0; font-size: 140%;}
+.expertise ul li .txt p{
+        font-size: 12px; line-height: 20px;
+        margin-top: 15px;
+    }
+    
+.cont_notebook_bg{height: 370px; }
+    
+.publisher_list li a h4{font-size: 25px;}
+.publisher_list li a p{font-size: 13px;}
+    
+.contact{padding: 100px 0;}
+.contact_text1{font-size: 13px;}
+}
+
+
+
+@media screen and (max-width: 640px){
+
+.visual_ment{margin-top:-100px;}
+.main_banner{height: 450px; margin-bottom: 40px;}
+.main_banner h1{font-size: 30px; line-height: 35px;}
+    
+.introduce{width: 87%; text-align: center; }
+.introduce_title{float: none; margin-bottom: 40px;}
+.cont_right{width: 100%; margin-left:0%;}
+
+    
+    
+.ourwork_title{margin-bottom: 40px;}
+.ourwork p{font-size: 13px;}
+.ourwork ul li{width: 100%;}
+    
+.expertise{padding: 50px 0;}
+.expertise ul{
+        width: 95%; 
+        text-align: center; margin-top: 50px;
+    }
+.expertise ul li{
+        width: 100%; height: 50%;
+        margin-bottom: 0; padding: 15px;
+    }
+.expertise ul li img{float: none; width: 20%; margin-right: 0; margin-bottom: 20px;}
+.expertise ul li .txt{float: none; width: 100%;}
+
+.expertise ul li .txt p{
+        
+        margin-top: 15px;
+    }
+    
+.cont_notebook_bg{height: 280px;}
+.publisher_list li{width: 50%; height: 200px;}
+.publisher_list li a{padding-top: 50px;}
+.contact{padding: 50px 0;}
+}

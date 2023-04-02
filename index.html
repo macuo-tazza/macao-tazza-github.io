@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">     
+    <meta name="robots" content="index,follow">  
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Creative Design & Publishing</title>
+    <link rel="stylesheet" href="pre/css/common.css" type="text/css">
+    <!-- 상단 부터 중단까지 화면 css-->
+    <link rel="stylesheet" href="pre/css/footer.css">
+    <!-- 풋터쪽 작업 css -->
+    <link rel="stylesheet" href="pre/css/main.css">
+    <script src="pre/js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" href="pre/css/overlay.css" type="text/css">
+	<Script>
+	$(document).ready(function() {
+	  $('.open-menu').on('click', function() {
+		 $('.overlay').addClass('open');
+	  });
+
+	  $('.close-menu').on('click', function() {
+		$('.overlay').removeClass('open');
+	
+	  });
+	});
+	</script>
+
+    <script src="pre/js/selectivizr-min.js"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="js/selectivizr-min.js"></script>
+        <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="pre/js/custom.js"></script>
+	<script src="pre/js/nprogress.js"></script>
+	<!--메인-->
+	<link rel="stylesheet" type="text/css" media="screen,print" href="pre/css/zerbinotto_style.css" />
+	<link rel="stylesheet" href="pre/css/page-animation.css">
+	<link rel="stylesheet" href="pre/css/zoomslider.css" />
+
+	<script type="text/javascript" src="pre/js/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript" src="pre/js/zerbinotto_main.js"></script>
+	<script src="pre/js/aos.js"></script>
+	<link href="pre/css/aos.css" rel="stylesheet">
+	<script src="pre/js/timber.master.min.js"></script>
+
+
+	<!--메인-->
+</head>
+<body>
+<script> 
+	$('body').show();
+	NProgress.start();
+	setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); },50);
+</script>
+
+
+
+
+
+
+<div  class='fade out'>
+<!-- 탑메뉴 -->
+	<div id="test">
+		<div class="open-menu">
+		</div>
+	</div>
+
+	<div class="overlay">
+		<nav class="overlay-menu">
+			<ul>
+				<li><a href="http://www.originalsme.com">Home</a></li>
+				<li><a href="pre/sub_about.html">About Me</a></li>
+				<li><a href="pre/sub_ourwork.html">Our Work</a></li>
+				<li><a href="pre/sub_contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<p class="close"><img class="close-menu" src="pre/img/main/close.png" alt=""/></p>
+	</div>
+
+
+<style>
+.open-menu{position:absolute; top:0; left:0; z-index:100000; background:url(pre/img/main/menu.png) no-repeat; width:80px;  height:100px;}
+.open-menu.fixed{position:fixed; top:0; left:0; z-index:100000; background:url(pre/img/main/menu_over.png) no-repeat; width:80px; height:100px;}
+</style>
+
+<script type="text/javascript">
+
+	var Offset=$('#test').offset();
+	$(window).scroll(function(){
+		if($(document).scrollTop()>Offset.top){
+			$('.open-menu').addClass('fixed');
+		}else{
+			$('.open-menu').removeClass('fixed');
+		}
+	});
+</script>	
+<!-- 탑메뉴 -->
+
+
+	<div id="visual_wrap">
+		<div class="visual_ment">
+			<div class="main_banner">
+				<h1 class="fadeIn"><span>Originals</span><br/>The Creative a Web Master.</h1>
+				<p class="slideDown mt10" data-delay="1000">
+					"I will be a Web Master who works hard."
+				</p>
+			</div><!-- e. slogan -->
+		</div>
+	
+		<div id="visual_wrap" data-zs-src='["pre/img/main/main.jpg", "pre/img/main/main.jpg", "pre/img/main/main.jpg"]'>
+		</div>
+		<script type="text/javascript" src="pre/js/zoomslider.min.js"></script>
+	</div>
+
+
+
+    <div id="container" style="margin-top:0;">
+        <div class="introduce clfix" data-aos="fade-up" data-aos-delay="400">
+            <h2 class="introduce_title">I’m a Web <span class="color">Master</span></h2>
+            <div class="cont_right">
+                <p class="introduce_text1 paragraph">
+					I'm a Web Master from Korea. I love CSS and JavaScript which along with other acronyms gives me superpower to develop compelling Web Publisher, intuitive 
+					yet minimalistic interfaces, and engaging designs I work to the principle that Simple  is beautiful, while carefully including the finest details and interactions.
+			    </p>
+                <p class="introduce_text2 paragraph">
+					I always like to study the most efficient way ahead of my work.
+					I pursue novelty different from others than follow others. <br/>I will have a good influence on the world through my own web design & publishing.
+                </p>
+            </div>
+        </div>
+        <div class="ourwork">
+            <h2 class="ourwork_title">Our <span class="color">Work</span></h2>
+            <p class="ourwork_text1 paragraph mt20">
+                Please click on the thumbnail image to see my work.
+            </p>
+            <span class="btn_detail"><a href="pre/sub_ourwork.html" class="test">Detail View</a></span>
+
+            <ul class="clfix">
+                <li class="ourwork_list_bg1" data-aos="fade-up" data-aos-delay="100">
+                    <img src="pre/img/main/ourwork_bg1.jpg" alt="">
+                    <a href="http://www.uddesign.co.kr/" target='_blank' class="hover_over">Detail View</a>
+                </li>
+                <li class="ourwork_list_bg2"  data-aos="fade-up" data-aos-delay="200">
+                    <img src="pre/img/main/ourwork_bg6.jpg" alt="">
+                    <a href="http://www.vinideuswine.co.kr/" target='_blank' class="hover_over">Detail View</a>
+                </li>
+                <li class="ourwork_list_bg3"  data-aos="fade-up" data-aos-delay="300">
+                    <img src="pre/img/main/ourwork_bg2.jpg" alt="">
+                    <a href="http://www.ecowoodkorea.com" target='_blank'  class="hover_over">Detail View</a>
+                </li>
+                <li class="ourwork_list_bg4"  data-aos="fade-up" data-aos-delay="400">
+                    <img src="pre/img/main/ourwork_bg7.jpg" alt="">
+                    <a href="http://www.cnptstudio.com" target='_blank'  class="hover_over">Detail View</a>
+                </li>
+            </ul>
+        </div>
+        <div class="expertise">
+            <h2 class="expertise_title">My <span class="color">Expertise</span></h2>
+            <p class="expertise_text1 paragraph mt20">Challenges to my limitations are more important than any experience.</p>
+            <ul class="clfix">
+                <li data-aos="fade-down" data-aos-delay="100">
+                    <img src="pre/img/main/icon_01.png" alt="하늘색 모니터 아이콘">
+                    <div class="txt">
+                        <h3>Web <span class="bold">Development</span></h3>
+                        <p class="paragraph">
+                            I build next-generation<br/>
+                            web products using best-in-practice<br/>
+                            technologies & frameworks.
+                        </p>
+                    </div>
+
+                </li>
+                <li   data-aos="fade-down" data-aos-delay="200">
+                    <img src="pre/img/main/icon_02.png" alt="하늘색 휴대폰 아이콘">
+                    <div class="txt">
+                        <h3>UI/UX <span class="bold">Design</span></h3>
+                        <p class="paragraph">
+                            I love shaping your product from<br/>
+                            research to interaction to pixels, thus defining<br/>
+                            how easy a product is to use. 
+                        </p>
+                    </div>
+                </li>
+                <li  data-aos="fade-down" data-aos-delay="300">
+                    <img src="pre/img/main/icon_03.png" alt="하늘색 종이 펜 아이콘">
+                    <div class="txt">
+                        <h3>Improving <span class="bold">Products</span></h3>
+                        <p class="paragraph">
+                            No task is too small. I do product<br/>
+                            enhancements and fix issues. After all, that's<br/>
+                            where amazing user experiences start. 
+                        </p>
+                    </div>
+                </li>
+                <li  data-aos="fade-down" data-aos-delay="400">
+                    <img src="pre/img/main/icon_04.png" alt="하늘색 휴대폰 아이콘">
+                    <div class="txt">
+                        <h3>Digital <span class="bold">Marketing</span></h3>
+                        <p class="paragraph">
+                            I help you understanding the users<br/>
+                            and knowing how to engage them at the <br/>
+                            right time in the right place.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="cont_notebook_bg"></div>
+        <ul class="publisher_list clfix">
+            <li class="publisher_list1"  data-aos="fade-left" data-aos-delay="100"> 
+                <a href="#">
+                    <h4>Html5/Css3</h4>
+                    <p>
+                        In line with current trends<br>
+                        Using HTML5/CSS3, We are making.
+                    </p>
+                </a>
+            </li>
+            <li class="publisher_list2" data-aos="fade-right" data-aos-delay="200">
+                <a href="#">
+                    <h4>Java Script</h4>
+                    <p>
+                        Simple JavaScript required for<br>
+                        coding can analyze and modify the source.
+                    </p>
+                </a>
+            </li>
+            <li class="publisher_list3" data-aos="fade-top" data-aos-delay="300">
+                <a href="#">
+                    <h4>Jquery</h4>
+                    <p>
+                        Plugin with JQUERY<br>
+                        Using the code You can edit it.
+                    </p>
+                </a>
+            </li>
+            <li class="publisher_list4" data-aos="fade-down" data-aos-delay="400">
+                <a href="#">
+                    <h4>Bootstrap</h4>
+                    <p>
+                        You can build a simple site<br>
+                        using bootstrap
+                    </p>
+                </a>
+            </li>
+            <li class="publisher_list5" data-aos="fade-up" data-aos-delay="500">
+                <a href="#">
+                    <h4>Edit Plus</h4>
+                    <p>
+                        I am mainly involved in coding<br>
+                        Using EDITPLUS I am doing coding work.
+                    </p>
+                </a>
+            </li>
+            <li class="publisher_list6" data-aos="fade-left" data-aos-delay="600">
+                <a href="#">
+                    <h4>Photoshop</h4>
+                    <p>
+                        At the time of coding Need<br>
+                        a simple Photoshop job Available.
+                    </p>
+                </a>
+            </li>
+        </ul>
+        <div class="contact">
+            <h2 class="contact_title">Contact <span class="color">Us</span></h2>
+            <p class="contact_text1"><span>T. 010-6360-6612</span><span class="md10">E.originals84@hanmail.net</span></p>
+            <a href="pre/sub_contact.html" class="btn_detail">Detail View</a>
+        </div>
+    </div>
+    <div id="footer" style="padding:50px 0;">
+        <div class="wrap clfix">
+			<h5>ORIGINALS</h5>
+			<div class="footer_text">
+                <p class="f_text1">
+                     H.http://www.originalsme.com<br>
+                    <span>T. 010-6360-6612</span>   <span class="md10">E.originals84@hanmail.net</span>
+				</p>
+                <p class="f_text2">Copyrightⓒ 2017 Originals All Rights Reserved</p>
+            </div>
+            <ul class="sns_btn clfix">
+                <li><a href="#"><img src="pre/img/main/icon_facebook.png" alt="facebook 아이콘"></a></li>
+                <li><a href="#"><img src="pre/img/main/icon_e.png" alt="아이콘"></a></li>
+                <li><a href="#"><img src="pre/img/main/icon_twitter.png" alt="twitter 아이콘"></a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+
+<script>
+    AOS.init({
+      duration: 1200,
+      offset: 0,
+      delay: 100,
+      easing: 'ease-out-quad',
+    });
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
